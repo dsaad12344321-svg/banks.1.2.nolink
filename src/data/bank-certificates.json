@@ -1,0 +1,291 @@
+{
+  "banks": [
+    {
+      "id": "misr",
+      "name": "بنك مصر",
+      "logo": "/misr.png",
+      "certificates": [
+        {
+          "id": "misr-cert-fixed36-m",
+          "name": "شھادة القمة-عائد شهرى",
+          "duration": 36,
+          "interestRate": 17.75,
+          "returnType": "fixed",
+          "graduatedRates": {
+            "year1": 17.75,
+            "year2": 17.75,
+            "year3": 17.75
+          },
+          "type": "monthly",
+          "minAmount": 1000,
+          "description": "شهادة ادخار لمدة 3 سنوات بعائد ثابت %17.75",
+          "features": [
+            "عائد شهرى",
+            "3 سنوات",
+            "عائد ثابت",
+            "استقرار في العائد"
+          ]
+        },
+{
+  "id": "misr-cert-fixed36-q",
+  "name": "شهادة القمة-عائد ربع سنوى",
+  "duration": 36,
+  "interestRate": 17.85,
+  "returnType": "fixed",
+  "graduatedRates": {
+    "year1": 17.85,
+    "year2": 17.85,
+    "year3": 17.85
+  },
+  "type": "quarterly",
+  "minAmount": 1000,
+  "description": "شهادة ادخار لمدة 3 سنوات بعائد ثابت 17.85% يُصرف ربع سنوياً",
+  "features": [
+    "عائد ربع سنوى",
+    "3 سنوات",
+    "عائد ثابت",
+    "استقرار في العائد"
+  ]
+},
+        {
+          "id": "misr-cert-grad36-m",
+          "name": "شهادة ابن مصر الثلاثية المتناقصة عائد شهرى",
+          "duration": 36,
+          "interestRate": 20.5,
+          "returnType": "graduated",
+          "graduatedRates": {
+            "year1": 20.5,
+            "year2": 16.25,
+            "year3": 12.25
+          },
+          "type": "monthly",
+          "minAmount": 1000,
+          "description": "شهادة ادخار لمدة 3 سنوات بعائد متناقص تبدأ من 20.5% في السنة الأولى",
+          "features": [
+            "عائد شهرى",
+            "3 سنوات",
+            "عائد متدرج"
+          ]
+        },
+        {
+          "id": "misr-cert-grad36-y",
+          "name": "شهادة ابن مصر الثلاثية المتناقصة عائد سنوى",
+          "duration": 36,
+          "interestRate": 22,
+          "returnType": "graduated",
+          "graduatedRates": {
+            "year1": 22,
+            "year2": 17.5,
+            "year3": 13.25
+          },
+          "type": "annual",
+          "minAmount": 1000,
+          "description": "شهادة ادخار لمدة 3 سنوات بعائد متدرج سنوياً يبدأ من 22% في السنة الأولى",
+          "features": [
+            "عائد سنوى",
+            "عائد متدرج",
+            "3 سنوات",
+            "22% السنة الأولى",
+            "17.5% السنة الثانية",
+            "13.25% السنة الثالثة",
+            "حد أدنى 1000 جنيه"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elahly",
+      "name": "البنك الأهلي المصري",
+      "logo": "/elahly.png",
+      "certificates": [
+        {
+          "id": "elahly-cert-fixed12",
+          "name": "شهادة استثمار ب",
+          "duration": 12,
+          "interestRate": 14,
+          "returnType": "fixed",
+          "graduatedRates": {
+            "year1": 14,
+            "year2": 14,
+            "year3": 14
+          },
+          "type": "monthly",
+          "minAmount": 1000,
+          "description": "شهادة ادخار من البنك الأهلي المصري لمدة سنة بعائد ثابت 14% يُصرف شهرياً",
+          "features": [
+            "عائد شهري",
+            "مدة سنة واحدة",
+            "عائد ثابت 14%",
+            "من البنك الأهلي المصري",
+            "حد أدنى 1000 جنيه"
+          ]
+        },
+        {
+          "id": "elahly-cert-fixed36-q15",
+          "name": "شهادة استثمار ب",
+          "duration": 36,
+          "interestRate": 15,
+          "returnType": "fixed",
+          "graduatedRates": {
+            "year1": 15,
+            "year2": 15,
+            "year3": 15
+          },
+          "type": "quarterly",
+          "minAmount": 1000,
+          "description": "شهادة استثمار ب بعائد ربع سنوى 15%",
+          "features": [
+            "شهادة 3 سنوات",
+            "عائد ربع سنوى",
+            "عائد ثابت"
+          ]
+        },
+        {
+          "id": "elahly-cert-fixed36-m",
+          "name": "الشهادة البلاتينيه 3 سنوات",
+          "duration": 36,
+          "interestRate": 17.75,
+          "returnType": "fixed",
+          "graduatedRates": {
+            "year1": 17.75,
+            "year2": 17.75,
+            "year3": 17.75
+          },
+          "type": "monthly",
+          "minAmount": 1000,
+          "description": "شهادة ادخار بلاتينية لمدة 3 سنوات بعائد ثابت 17.75%",
+          "features": [
+            "عائد ثابت",
+            "3 سنوات",
+            "عائد شهري",
+            "شهادة مميزة"
+          ]
+        },
+{
+"id": "elahy-cert-fixed36-q",
+"name": "الشهادة البلاتينيه 3 سنوات - عائد ربع سنوى",
+"duration": 36,
+"interestRate": 17.85,
+"returnType": "fixed",
+"graduatedRates": {
+"year1": 17.85,
+"year2": 17.85,
+"year3": 17.85
+},
+"type": "quarterly",
+"minAmount": 1000,
+"description": "شهادة ادخار بلاتينية لمدة 3 سنوات بعائد ثابت 17.85% يُصرف ربع سنوياً",
+"features": [
+"عائد ثابت",
+"3 سنوات",
+"عائد ربع سنوى",
+"شهادة مميزة",
+"حد أدنى 1000 جنيه"
+]
+},
+        {
+          "id": "elahly-cert-grad36-m",
+          "name": "الشهادة البلاتينيه ذات العائد المتدرج الشهري",
+          "duration": 36,
+          "interestRate": 21,
+          "returnType": "graduated",
+          "graduatedRates": {
+            "year1": 21,
+            "year2": 16.25,
+            "year3": 12
+          },
+          "type": "monthly",
+          "minAmount": 1000,
+          "description": "شهادة بلاتينية لمدة 3 سنوات بعائد متدرج يبدأ من 21% في السنة الأولى",
+          "features": [
+            "عائد شهرى",
+            "عائد متدرج",
+            "3 سنوات",
+            "أعلى عائد أولي"
+          ]
+        },
+        {
+          "id": "elahly-cert-grad36-y",
+          "name": "الشهادة البلاتينيه ذات العائد المتدرج السنوي",
+          "duration": 36,
+          "interestRate": 22,
+          "returnType": "graduated",
+          "graduatedRates": {
+            "year1": 22,
+            "year2": 17.5,
+            "year3": 13
+          },
+          "type": "annual",
+          "minAmount": 1000,
+          "description": "شهادة بلاتينية لمدة 3 سنوات بعائد متدرج سنوياً يبدأ من 22% في السنة الأولى",
+          "features": [
+            "عائد سنوى",
+            "عائد متدرج",
+            "3 سنوات",
+            "أعلى عائد سنوي"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cib",
+      "name": "البنك التجارى الدولى",
+      "logo": "/cib.png",
+      "certificates": [
+        {
+          "id": "cib-cert-fixed36-m",
+          "name": "شهادة Premium",
+          "duration": 36,
+          "interestRate": 17.5,
+          "returnType": "fixed",
+          "graduatedRates": {
+            "year1": 17.5,
+            "year2": 17.5,
+            "year3": 17.5
+          },
+          "type": "monthly",
+          "minAmount": 50000,
+          "description": "شهادة Premium لمدة 3 سنوات بعائد ثابت 17.5% يُصرف شهرياً",
+          "features": [
+            "عائد شهرى",
+            "3 سنوات",
+            "عائد ثابت",
+            "حد أدنى 50000 جنيه"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cairo",
+      "name": "بنك القاهرة",
+      "logo": "/cairo.png",
+      "certificates": [
+        {
+          "id": "cairo-cert-grad36-m",
+          "name": "بريمو ذات العائد المتدرج",
+          "duration": 36,
+          "interestRate": 18,
+          "returnType": "graduated",
+          "graduatedRates": {
+            "year1": 18,
+            "year2": 16,
+            "year3": 14
+          },
+          "type": "monthly",
+          "minAmount": 50000,
+          "description": "شهادة بريمو لمدة 3 سنوات بعائد متدرج شهري يبدأ من 18% في السنة الأولى",
+          "features": [
+            "عائد شهرى",
+            "عائد متدرج",
+            "3 سنوات",
+            "ينخفض تدريجياً كل سنة",
+            "حد أدنى 50000 جنيه",
+            "جدول الاسترداد : بعد ستة أشهر وحتى سنة = 10.00%",
+            "خلال السنة الثانية = 9.00%",
+            "خلال السنة الثالثة = 8.00%"
+          ]
+        }
+      ]
+    }
+  ]
+}
